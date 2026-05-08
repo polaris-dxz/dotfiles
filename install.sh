@@ -33,7 +33,7 @@ fi
 
 echo "📂 Applying dotfiles..."
 
-chezmoi init --apply YOUR_GITHUB_NAME
+chezmoi init --apply https://github.com/polaris-dxz/dotfiles
 
 # ---------------------------------------------------
 # Brew Bundle
