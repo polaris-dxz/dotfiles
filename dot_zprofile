@@ -1,0 +1,33 @@
+
+# ============================================
+# System Initializations
+# ============================================
+
+# Added by OrbStack: command-line tools and integration
+# This won't be added again if you remove it.
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
+
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Starship Prompt
+eval "$(starship init zsh)"
+
+# zoxide (smart cd)
+eval "$(zoxide init zsh)"
+
+# atuin (better history)
+eval "$(atuin init zsh)"
+
+# fzf
+source <(fzf --zsh)
+
+# zsh autosuggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# zsh syntax highlighting
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Completion
+autoload -Uz compinit
+compinit

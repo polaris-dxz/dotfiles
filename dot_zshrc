@@ -1,0 +1,22 @@
+# ============================================
+# Basic
+# ============================================
+
+HISTSIZE=100000
+SAVEHIST=100000
+
+setopt HIST_IGNORE_DUPS
+setopt SHARE_HISTORY
+setopt AUTO_CD
+setopt INTERACTIVE_COMMENTS
+
+# ============================================
+# Load external configs
+# ============================================
+
+[ -f ~/.aliases ] && source ~/.aliases
+[ -f ~/.exports ] && source ~/.exports
+
+# ============================================
+# End
+# ============================================

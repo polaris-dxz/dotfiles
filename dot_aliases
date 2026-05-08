@@ -1,0 +1,38 @@
+# ============================================
+# Aliases
+# ============================================
+
+# neovim
+alias v="nvim"
+alias vim="nvim"
+
+# git
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gco="git checkout"
+
+# lazygit
+alias lg="lazygit"
+
+# yazi
+alias y="yazi"
+
+# claude
+alias c="claude"
+
+# tmux
+alias ta="tmux attach"
+alias ts="tmux new-session"
+
+# modern ls
+alias l="eza -lah --git"
+alias ll="eza -l --git"
+alias la="eza -la"
+
+# better cat
+alias cat="bat"
+
+# grep
+alias grep="rg"

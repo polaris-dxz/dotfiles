@@ -1,0 +1,4 @@
+customCommands:
+  - key: "C"
+    command: "oco"
+    context: "files"
